@@ -2,7 +2,7 @@ HOW TO GRADLERIO:
   Note: Make sure your terminal/command prompt is in the
   same directory as the gradlew/gradlew.bat files...
 
-  1) To run gradle, type:
+  1) To  run gradle, type:
     gradlew               (Windows)
     ./gradlew             (Mac/Linux/UNIX)
 
