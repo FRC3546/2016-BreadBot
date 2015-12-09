@@ -4,7 +4,12 @@
       <root url="jar:///usr/lib/wpilib/java/extracted/library/lib/NetworkTables.jar!/" />
       <root url="jar:///usr/lib/wpilib/java/extracted/library/lib/WPILib.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="http://first.wpi.edu/FRC/roborio/release/docs/java/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/lib/wpilib/java/extracted/library/lib/NetworkTables-sources.jar!/" />
+      <root url="jar:///usr/lib/wpilib/java/extracted/library/lib/WPILib-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
