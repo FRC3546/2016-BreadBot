@@ -54,5 +54,18 @@ public class Baguette extends Subsystem {
         }
 
     }
+
+    public boolean getPumperNickelValve() {
+        return pumperNickelValve.get() == DoubleSolenoid.Value.kForward;
+    }
+
+    public void invertPumperNickelValve() {
+        if (getPumperNickelValve() == PUMPERNICKEL_EXTENDED){
+            setPumperNickelValve(PUMPERNICKEL_RETRACTED);
+
+        } else {
+            setPumperNickelValve(PUMPERNICKEL_EXTENDED);
+        }
+    }
 }
 
